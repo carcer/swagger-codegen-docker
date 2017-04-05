@@ -6,4 +6,4 @@ cd "$(dirname "$0")/.."
 
 # ----
 
-docker build -t sandcastle/swagger-codegen-docker .
+docker build -t ocdlimited/swagger-codegen-docker .

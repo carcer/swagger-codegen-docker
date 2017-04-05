@@ -14,7 +14,7 @@ docker run \
     -v "${PWD}/tmp/output/html:/gen" \
     -e "LANGUAGE=dynamic-html" \
     -e "SWAGGER_FILE=swagger.yml" \
-    sandcastle/swagger-codegen-docker
+    ocdlimited/swagger-codegen-docker
 
 # docker wait
 
@@ -23,7 +23,7 @@ docker run  \
     -v "${PWD}/tmp/output/csharp:/gen" \
     -e "LANGUAGE=csharp" \
     -e "SWAGGER_FILE=swagger.yml" \
-    sandcastle/swagger-codegen-docker
+    ocdlimited/swagger-codegen-docker
 
 # docker wait
 
@@ -32,7 +32,7 @@ docker run \
     -v "${PWD}/tmp/output/typescript-angular:/gen" \
     -e "LANGUAGE=typescript-angular" \
     -e "SWAGGER_FILE=swagger.yml" \
-    sandcastle/swagger-codegen-docker
+    ocdlimited/swagger-codegen-docker
 
 # ----
 

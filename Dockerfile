@@ -10,6 +10,6 @@ WORKDIR /src
 ADD run.sh run.sh
 RUN chmod a+x /src/run.sh
 
-ADD swagger-codegen/ /src/swagger-codegen
+ADD swagger-codegen-cli.jar /swagger-codegen-cli.jar
 
 CMD ["/src/run.sh"]

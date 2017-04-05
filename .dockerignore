@@ -1,3 +1,4 @@
 .git
 .gitmodules
 circle.yml
+swagger-codegen/*
